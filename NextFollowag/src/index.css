@@ -1,0 +1,67 @@
+:root {
+  --cream: #f8ecdf;
+  --ivory: #fff8ef;
+  --sand: #e7cdb4;
+  --taupe: #946f51;
+  --cocoa: #5b321c;
+  --espresso: #2d170c;
+  --ink: #22140c;
+  --muted: #74543b;
+  --line: rgba(91, 50, 28, 0.18);
+  --glass: rgba(255, 248, 239, 0.72);
+  --shadow: 0 28px 90px rgba(45, 23, 12, 0.16);
+  --sans: 'Inter', 'Avenir Next', 'Segoe UI', system-ui, sans-serif;
+  --serif: 'Cormorant Garamond', 'Georgia', serif;
+  --spotlight-x: 50vw;
+  --spotlight-y: 40vh;
+
+  color: var(--ink);
+  background: var(--cream);
+  font-family: var(--sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #130b07;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img,
+svg {
+  display: block;
+}
+
+::selection {
+  color: var(--ivory);
+  background: var(--cocoa);
+}
