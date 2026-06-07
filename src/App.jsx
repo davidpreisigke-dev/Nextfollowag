@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import heroPeople from './assets/heloisaRyanHeroPng.webp'
+import heroPeople from './assets/heloisa-ryan-hero.webp'
 import founderWoman from './assets/dona-next-follow.webp'
 import duoPortrait from './assets/Ryan-Heloisa.webp'
 import duoPortraitAlt from './assets/Ryan-heloisa2.webp'
